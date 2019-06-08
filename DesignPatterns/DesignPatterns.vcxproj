@@ -131,14 +131,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="GameState.cpp" />
     <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="Shape.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="Triangle.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
