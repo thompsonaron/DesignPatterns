@@ -9,6 +9,7 @@ class Triangle :
 {
 public:
 	void update();
+	void attach(Observer * observer);
 	Triangle();
 	~Triangle();
 };

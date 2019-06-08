@@ -3,12 +3,13 @@
 
 #include "GameObject.h"
 
+
 class Rectangle :
 	public GameObject
 {
 public:
 	void update();
-	
+	void attach(Observer * observer);
 	Rectangle();
 	~Rectangle();
 
